@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A66A9F592589A7DF00DCA256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A9F582589A7DF00DCA256 /* main.cpp */; };
+		A66A9F662589C17100DCA256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A9F652589C17100DCA256 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A66A9F542589A7DF00DCA256 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A66A9F612589C17100DCA256 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,11 +44,20 @@
 /* Begin PBXFileReference section */
 		A66A9F562589A7DF00DCA256 /* Reverse the array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse the array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66A9F582589A7DF00DCA256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A66A9F632589C17100DCA256 /* Minimum and maximum of an array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Minimum and maximum of an array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66A9F652589C17100DCA256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6DA3F6A25899548007926A6 /* Data Structures and Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structures and Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A66A9F532589A7DF00DCA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66A9F602589C17100DCA256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,10 +82,19 @@
 			path = "Reverse the array";
 			sourceTree = "<group>";
 		};
+		A66A9F642589C17100DCA256 /* Minimum and maximum of an array */ = {
+			isa = PBXGroup;
+			children = (
+				A66A9F652589C17100DCA256 /* main.cpp */,
+			);
+			path = "Minimum and maximum of an array";
+			sourceTree = "<group>";
+		};
 		A6DA3F6125899548007926A6 = {
 			isa = PBXGroup;
 			children = (
 				A66A9F572589A7DF00DCA256 /* Reverse the array */,
+				A66A9F642589C17100DCA256 /* Minimum and maximum of an array */,
 				A6DA3F6B25899548007926A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +104,7 @@
 			children = (
 				A6DA3F6A25899548007926A6 /* Data Structures and Algorithms */,
 				A66A9F562589A7DF00DCA256 /* Reverse the array */,
+				A66A9F632589C17100DCA256 /* Minimum and maximum of an array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +127,23 @@
 			name = "Reverse the array";
 			productName = "Reverse the array";
 			productReference = A66A9F562589A7DF00DCA256 /* Reverse the array */;
+			productType = "com.apple.product-type.tool";
+		};
+		A66A9F622589C17100DCA256 /* Minimum and maximum of an array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66A9F672589C17100DCA256 /* Build configuration list for PBXNativeTarget "Minimum and maximum of an array" */;
+			buildPhases = (
+				A66A9F5F2589C17100DCA256 /* Sources */,
+				A66A9F602589C17100DCA256 /* Frameworks */,
+				A66A9F612589C17100DCA256 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minimum and maximum of an array";
+			productName = "Minimum and maximum of an array";
+			productReference = A66A9F632589C17100DCA256 /* Minimum and maximum of an array */;
 			productType = "com.apple.product-type.tool";
 		};
 		A6DA3F6925899548007926A6 /* Data Structures and Algorithms */ = {
@@ -128,6 +174,9 @@
 					A66A9F552589A7DF00DCA256 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A66A9F622589C17100DCA256 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A6DA3F6925899548007926A6 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -148,6 +197,7 @@
 			targets = (
 				A6DA3F6925899548007926A6 /* Data Structures and Algorithms */,
 				A66A9F552589A7DF00DCA256 /* Reverse the array */,
+				A66A9F622589C17100DCA256 /* Minimum and maximum of an array */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +208,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A66A9F592589A7DF00DCA256 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66A9F5F2589C17100DCA256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A9F662589C17100DCA256 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +238,22 @@
 			name = Debug;
 		};
 		A66A9F5B2589A7DF00DCA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A66A9F682589C17100DCA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A66A9F692589C17100DCA256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +396,15 @@
 			buildConfigurations = (
 				A66A9F5A2589A7DF00DCA256 /* Debug */,
 				A66A9F5B2589A7DF00DCA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66A9F672589C17100DCA256 /* Build configuration list for PBXNativeTarget "Minimum and maximum of an array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66A9F682589C17100DCA256 /* Debug */,
+				A66A9F692589C17100DCA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

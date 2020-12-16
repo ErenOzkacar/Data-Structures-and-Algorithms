@@ -4,7 +4,7 @@
 //
 //  Created by Eren Özkacar on 16.12.20.
 //
-// A program to reverse an array
+//  A program to reverse an array
 
 #include <iostream>
 #include <vector>
