@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6DA3F6E25899548007926A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6DA3F6D25899548007926A6 /* main.cpp */; };
+		A66A9F592589A7DF00DCA256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A9F582589A7DF00DCA256 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A66A9F542589A7DF00DCA256 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A6DA3F6825899548007926A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +32,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A66A9F562589A7DF00DCA256 /* Reverse the array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse the array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66A9F582589A7DF00DCA256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6DA3F6A25899548007926A6 /* Data Structures and Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structures and Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6DA3F6D25899548007926A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A66A9F532589A7DF00DCA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6DA3F6725899548007926A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A66A9F572589A7DF00DCA256 /* Reverse the array */ = {
+			isa = PBXGroup;
+			children = (
+				A66A9F582589A7DF00DCA256 /* main.cpp */,
+			);
+			path = "Reverse the array";
+			sourceTree = "<group>";
+		};
 		A6DA3F6125899548007926A6 = {
 			isa = PBXGroup;
 			children = (
-				A6DA3F6C25899548007926A6 /* Data Structures and Algorithms */,
+				A66A9F572589A7DF00DCA256 /* Reverse the array */,
 				A6DA3F6B25899548007926A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,21 +75,31 @@
 			isa = PBXGroup;
 			children = (
 				A6DA3F6A25899548007926A6 /* Data Structures and Algorithms */,
+				A66A9F562589A7DF00DCA256 /* Reverse the array */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A6DA3F6C25899548007926A6 /* Data Structures and Algorithms */ = {
-			isa = PBXGroup;
-			children = (
-				A6DA3F6D25899548007926A6 /* main.cpp */,
-			);
-			path = "Data Structures and Algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A66A9F552589A7DF00DCA256 /* Reverse the array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66A9F5C2589A7DF00DCA256 /* Build configuration list for PBXNativeTarget "Reverse the array" */;
+			buildPhases = (
+				A66A9F522589A7DF00DCA256 /* Sources */,
+				A66A9F532589A7DF00DCA256 /* Frameworks */,
+				A66A9F542589A7DF00DCA256 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reverse the array";
+			productName = "Reverse the array";
+			productReference = A66A9F562589A7DF00DCA256 /* Reverse the array */;
+			productType = "com.apple.product-type.tool";
+		};
 		A6DA3F6925899548007926A6 /* Data Structures and Algorithms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6DA3F7125899548007926A6 /* Build configuration list for PBXNativeTarget "Data Structures and Algorithms" */;
@@ -90,6 +125,9 @@
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					A66A9F552589A7DF00DCA256 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A6DA3F6925899548007926A6 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -109,22 +147,46 @@
 			projectRoot = "";
 			targets = (
 				A6DA3F6925899548007926A6 /* Data Structures and Algorithms */,
+				A66A9F552589A7DF00DCA256 /* Reverse the array */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A66A9F522589A7DF00DCA256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A9F592589A7DF00DCA256 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6DA3F6625899548007926A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6DA3F6E25899548007926A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A66A9F5A2589A7DF00DCA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A66A9F5B2589A7DF00DCA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A6DA3F6F25899548007926A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -255,6 +317,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A66A9F5C2589A7DF00DCA256 /* Build configuration list for PBXNativeTarget "Reverse the array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66A9F5A2589A7DF00DCA256 /* Debug */,
+				A66A9F5B2589A7DF00DCA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A6DA3F6525899548007926A6 /* Build configuration list for PBXProject "Data Structures and Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
