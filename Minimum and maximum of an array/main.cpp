@@ -15,7 +15,7 @@ struct Pair {
     int maximum;
 };
 
-struct Pair searchMinMax(vector<int> array){
+struct Pair searchMinMax(vector<int> &array){
     Pair p {array[0], array[0]};
     
     for (const auto element : array) {
@@ -30,7 +30,7 @@ struct Pair searchMinMax(vector<int> array){
 }
 
 int main(int argc, const char * argv[]) {
-    vector<int> array {1, 3, 4, 5, 2, 5, 9, 12, 4, 24, 6, 3};
+    vector<int> array {1, 2, 4, 7, 2, 0, 11, 45, 3, 6};
     Pair p {searchMinMax(array)};
     
     cout << "Minimum: " << p.minimum << endl << "Maximum: " << p.maximum << endl;

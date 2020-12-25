@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6340C842595BCE100F5F301 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6340C832595BCE100F5F301 /* main.cpp */; };
 		A66A9F592589A7DF00DCA256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A9F582589A7DF00DCA256 /* main.cpp */; };
 		A66A9F662589C17100DCA256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A9F652589C17100DCA256 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A6340C7F2595BCE100F5F301 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A66A9F542589A7DF00DCA256 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A6340C812595BCE100F5F301 /* Union and intersection of two arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Union and intersection of two arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6340C832595BCE100F5F301 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A66A9F562589A7DF00DCA256 /* Reverse the array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse the array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66A9F582589A7DF00DCA256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A66A9F632589C17100DCA256 /* Minimum and maximum of an array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Minimum and maximum of an array"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A6340C7E2595BCE100F5F301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A66A9F532589A7DF00DCA256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6340C822595BCE100F5F301 /* Union and intersection of two arrays */ = {
+			isa = PBXGroup;
+			children = (
+				A6340C832595BCE100F5F301 /* main.cpp */,
+			);
+			path = "Union and intersection of two arrays";
+			sourceTree = "<group>";
+		};
 		A66A9F572589A7DF00DCA256 /* Reverse the array */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +122,7 @@
 			children = (
 				A66A9F572589A7DF00DCA256 /* Reverse the array */,
 				A66A9F642589C17100DCA256 /* Minimum and maximum of an array */,
+				A6340C822595BCE100F5F301 /* Union and intersection of two arrays */,
 				A6DA3F6B25899548007926A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +133,7 @@
 				A6DA3F6A25899548007926A6 /* Data Structures and Algorithms */,
 				A66A9F562589A7DF00DCA256 /* Reverse the array */,
 				A66A9F632589C17100DCA256 /* Minimum and maximum of an array */,
+				A6340C812595BCE100F5F301 /* Union and intersection of two arrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +141,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A6340C802595BCE100F5F301 /* Union and intersection of two arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6340C872595BCE100F5F301 /* Build configuration list for PBXNativeTarget "Union and intersection of two arrays" */;
+			buildPhases = (
+				A6340C7D2595BCE100F5F301 /* Sources */,
+				A6340C7E2595BCE100F5F301 /* Frameworks */,
+				A6340C7F2595BCE100F5F301 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Union and intersection of two arrays";
+			productName = "Union and intersection of two arrays";
+			productReference = A6340C812595BCE100F5F301 /* Union and intersection of two arrays */;
+			productType = "com.apple.product-type.tool";
+		};
 		A66A9F552589A7DF00DCA256 /* Reverse the array */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A66A9F5C2589A7DF00DCA256 /* Build configuration list for PBXNativeTarget "Reverse the array" */;
@@ -171,6 +217,9 @@
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					A6340C802595BCE100F5F301 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A66A9F552589A7DF00DCA256 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -198,11 +247,20 @@
 				A6DA3F6925899548007926A6 /* Data Structures and Algorithms */,
 				A66A9F552589A7DF00DCA256 /* Reverse the array */,
 				A66A9F622589C17100DCA256 /* Minimum and maximum of an array */,
+				A6340C802595BCE100F5F301 /* Union and intersection of two arrays */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A6340C7D2595BCE100F5F301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6340C842595BCE100F5F301 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A66A9F522589A7DF00DCA256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +287,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A6340C852595BCE100F5F301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6340C862595BCE100F5F301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A66A9F5A2589A7DF00DCA256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +465,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A6340C872595BCE100F5F301 /* Build configuration list for PBXNativeTarget "Union and intersection of two arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6340C852595BCE100F5F301 /* Debug */,
+				A6340C862595BCE100F5F301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A66A9F5C2589A7DF00DCA256 /* Build configuration list for PBXNativeTarget "Reverse the array" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
